@@ -1,0 +1,16 @@
+-How to create our own thread pool in java
+-what is join point and cut point in spring boot AOP
+-Entity Graph use
+-Comutable
+-Multithreading use.
+
+- How design notification in microservices.
+- HandlerIntersectrs and filters
+- Usages of gateway
+- How to autoscale Microservices
+- @Async
+- Exception in optional
+- How to handle Security in java
+- How auto scaling works?
+- Zero-Downtime Deployments for Microservices(Blue Green deployment)
+- How to handle microservice API call in way that call always goto nearer server.
