@@ -15,10 +15,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Stream;
 
 @RestController
-@RequestMapping("/server-events")
+@RequestMapping("/api/SEC")
 public class ServerEventController {
 
-    @GetMapping(produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(value = "/server-events", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     public Flux<ServerSentEvent<String>> streamEvents() throws IOException {
 
         Stream<String> lines = Files.lines(Path.of("src/main/resources/data.txt"));
